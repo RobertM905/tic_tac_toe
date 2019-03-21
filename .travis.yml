@@ -1,5 +1,5 @@
 language: ruby
-before_install: bundle update --bundler
+before_install: gem install bundler
 script: bundle exec rspec
 rvm:
   - 2.6.2
